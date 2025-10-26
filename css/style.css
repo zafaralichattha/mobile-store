@@ -1,3 +1,57 @@
+feature/issue#3
+/* Promotions & Contact Page Styles (Issue #3 — Lead) */
+.promotions {
+  background-color: #fff8e1;
+  padding: 30px;
+  text-align: center;
+}
+
+.promo-box {
+  border: 2px dashed #ffa500;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px auto;
+  width: 300px;
+}
+
+.contact-form {
+  max-width: 450px;
+  margin: 30px auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+
 /* single shared style sheet */
 /* Home Page Styles (Issue #1 — Member 1) */
 .home-section {
@@ -28,4 +82,4 @@
 .featured-products div:hover {
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
-
+develop
